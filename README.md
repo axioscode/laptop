@@ -32,10 +32,10 @@ and once it appears, press `return` to launch it.
 In your Terminal window, copy and paste the command below, then press `return`.
 
 ```sh
-bash <(curl -s https://raw.githubusercontent.com/18F/laptop/master/laptop)
+bash <(curl -s https://raw.githubusercontent.com/axioscode/laptop/master/laptop)
 ```
 
-The [script](https://github.com/18F/laptop/blob/master/mac) itself is
+The [script](https://github.com/axioscode/laptop/blob/master/mac) itself is
 available in this repo for you to review if you want to see what it does
 and how it works.
 
@@ -61,7 +61,7 @@ at your convenience by typing `laptop` and hitting `return` in your Terminal.
 In your terminal window, copy and paste the following line, and press `return`:
 
 ```sh
-curl -s https://raw.githubusercontent.com/18F/laptop/master/seekrets-install | bash -
+curl -s https://raw.githubusercontent.com/axioscode/laptop/master/seekrets-install | bash -
 ```
 
 Note that the script may ask you to enter your password. This is the same password that you use to log in to your computer.
@@ -131,7 +131,7 @@ git seekret check -s # check for secrets within staged files
 
 Your last Laptop run will be saved to `~/laptop.log`. Read through it to see if
 you can debug the issue yourself. If not, copy and paste the entire log into a
-[new GitHub Issue](https://github.com/18F/laptop/issues/new) for us.
+[new GitHub Issue](https://github.com/axioscode/laptop/issues/new) for us.
 
 #### Git Seekrets False Positives
 
@@ -216,8 +216,8 @@ It lets you install the following tools and apps:
 - [Tmux] for saving project state and switching between projects
 - [Spectacle] - automatic window manipulation
 
-[.laptop.local]: https://github.com/18F/laptop/blob/master/.laptop.local
-[brewfile.local]: https://github.com/18F/laptop/blob/master/Brewfile.local
+[.laptop.local]: https://github.com/axioscode/laptop/blob/master/.laptop.local
+[brewfile.local]: https://github.com/axioscode/laptop/blob/master/Brewfile.local
 [vscode]: https://code.visualstudio.com/
 [atom]: https://atom.io/
 [sublime text 3]: http://www.sublimetext.com/3
@@ -289,7 +289,7 @@ brew install zsh
 ## Credits
 
 The 18F laptop script is based on and inspired by
-[thoughtbot's laptop](https://github.com/thoughtbot/laptop) script.
+[thoughtbot's laptop](https://github.com/thoughtbot/laptop) script. Modified by [axioscode](https://github.com/axioscode/laptop).
 
 ### Public domain
 
