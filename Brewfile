@@ -9,11 +9,11 @@ tap 'homebrew/services'
 
 brew 'hub'
 
-tap 'cloudfoundry/homebrew-tap'
+# tap 'cloudfoundry/homebrew-tap'
 brew 'cf-cli'
 
 cask 'chromedriver'
-cask 'cloudapp'
+# cask 'cloudapp'
 cask 'docker'
 cask 'slack'
 
