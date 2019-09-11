@@ -2,8 +2,8 @@
 
 cd ~
 # Download the sample files to your computer
-curl --remote-name https://raw.githubusercontent.com/18F/laptop/master/.laptop.local
-curl --remote-name https://raw.githubusercontent.com/18F/laptop/master/Brewfile.local
-curl --remote-name https://raw.githubusercontent.com/18F/laptop/master/mac
-curl --remote-name https://raw.githubusercontent.com/18F/laptop/master/Brewfile
+curl --remote-name https://raw.githubusercontent.com/axioscode/laptop/master/.laptop.local
+curl --remote-name https://raw.githubusercontent.com/axioscode/laptop/master/Brewfile.local
+curl --remote-name https://raw.githubusercontent.com/axioscode/laptop/master/mac
+curl --remote-name https://raw.githubusercontent.com/axioscode/laptop/master/Brewfile
 /usr/bin/env bash mac 2>&1 | tee ~/laptop.log
